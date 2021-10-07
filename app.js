@@ -51,7 +51,9 @@ app.post("/compose", (req, res) => {
   posts.push(post);
   res.redirect("/");
 });
+
 const PORT = process.env.PORT || 3000;
+
 app.listen(PORT, function () {
-  console.log("Server started on port "+port);
+  console.log("Server started on port 3000");
 });
